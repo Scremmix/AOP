@@ -6,6 +6,9 @@ function Headline(props) {
         <div className="headline">
             <div className={props.direction}>
                 <p className="headlineContent vt323-fontface">{props.text}</p>
+                <p className="headlineContent vt323-fontface">&emsp;</p>
+                <p className="headlineContent vt323-fontface">{props.text}</p>
+                <p className="headlineContent vt323-fontface">&emsp;</p>
             </div>
         </div>
     </div>
