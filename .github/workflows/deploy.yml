@@ -24,6 +24,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Configure Git
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       # Step 4: Build the React app
       - name: Build React App
         run: npm run build
