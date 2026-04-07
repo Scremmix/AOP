@@ -6,8 +6,6 @@ function Headline(props) {
         <div className="headline">
             <div className="RightToLeft">
                 <p className="headlineContent vt323-fontface">{props.text}</p>
-                <p className="headlineContent vt323-fontface">{props.text}</p>
-                <p className="headlineContent vt323-fontface">{props.text}</p>
             </div>
         </div>
     </div>

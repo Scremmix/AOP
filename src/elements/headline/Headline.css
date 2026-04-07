@@ -1,7 +1,7 @@
 .headlineContainer{
     display: flex;
     align-items: center;
-    height: 5em;
+    height: 4.5vw;
     overflow: hidden;
 }
 
@@ -11,13 +11,12 @@
 
 .headline > div{
     display: flex;
-    gap: 2em;
 }
 
 .headline .headlineContent{
-    font-size: 4em;
+    font-size: 3.5vw;
     color: white;
-    line-height: 10px;
+    line-height: 0.1vw;
 }
 
 .RightToLeft{
@@ -26,10 +25,10 @@
 
 @keyframes RightToLeft{
     0%{
-        transform: translateX(0%);
+        transform: translateX(100vw);
     }
     100%{
-        transform: translateX(-100%);
+        transform: translateX(-100vw);
     }
 }
 

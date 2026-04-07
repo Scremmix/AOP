@@ -8,7 +8,7 @@ function MainPageContent() {
             Aglio Olio Peperoncino
         </p>
         <Headline
-          text="Questo sito è ancora in realizzazione..." 
+          text="Questo sito è ancora in realizzazione... Nel frattempo, venite a camminare, bestie." 
         />
     </div>
   );
