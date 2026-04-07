@@ -1,0 +1,49 @@
+.headlineContainer{
+    display: flex;
+    align-items: center;
+    height: 6em;
+    overflow: hidden;
+}
+
+.headline{
+    white-space: nowrap;
+    margin: 0 2em;
+}
+
+.headline div{
+    display: flex;
+    gap: 2em;
+}
+
+.headline .headlineContent{
+    font-size: 5em;
+    color: white;
+    margin: 10px;
+    line-height: 10px;
+}
+
+.RightToLeft{
+    animation: RightToLeft 10s infinite linear;
+}
+
+@keyframes RightToLeft{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.LeftToRight{
+    animation: LeftToRight 10s infinite linear;
+}
+
+@keyframes LeftToRight{
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
