@@ -23,7 +23,7 @@
 }
 
 .RightToLeft{
-    animation: RightToLeft 10s infinite linear;
+    animation: RightToLeft 10s linear infinite;
 }
 
 @keyframes RightToLeft{
@@ -35,15 +35,6 @@
     }
 }
 
-.LeftToRight{
-    animation: LeftToRight 10s infinite linear;
-}
-
-@keyframes LeftToRight{
-    from{
-        transform: translateX(-50%);
-    }
-    to{
-        transform: translateX(0%);
-    }
+.headlineContainer:hover .RightToLeft{
+    animation-play-state: paused;
 }
