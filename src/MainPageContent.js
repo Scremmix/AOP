@@ -5,7 +5,7 @@ import PageSelector from './elements/pageselector/PageSelector';
 function MainPageContent() {
   return (
     <div className="pageContent">
-        <p className="contentTest sixtyfourDiplay-fontface">
+        <p className="title sixtyfourDiplay-fontface">
             Aglio Olio Peperoncino
         </p>
         <Headline

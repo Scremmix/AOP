@@ -1,9 +1,9 @@
-.pageContent > .contentTest{
+.pageContent > .title{
     color: #fff;
-    margin: 0.1vw 15%; 
-    width: 66%; 
+    margin: 0.1vw 10%; 
+    width: 76%; 
     padding: 2%;
-    font-size: 4.8vw;
+    font-size: clamp(1rem, calc(2vw + 0.75rem), 3rem);
     text-align: center;
 }
 
