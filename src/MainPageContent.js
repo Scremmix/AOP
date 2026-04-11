@@ -1,5 +1,6 @@
 import './MainPageContent.css';
 import Headline from './elements/headline/Headline';
+import PageSelector from './elements/headline/PageSelector';
 
 function MainPageContent() {
   return (
@@ -10,6 +11,7 @@ function MainPageContent() {
         <Headline
           text="Questo sito è ancora in realizzazione... Nel frattempo, venite a camminare, bestie." 
         />
+        <PageSelector />
     </div>
   );
 }
