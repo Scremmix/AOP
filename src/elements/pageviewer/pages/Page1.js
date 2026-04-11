@@ -9,7 +9,7 @@ function Page1() {
         <div className="headerRow">
           <div className="headerElement kodeMono-fontface">Pos.</div>
           <div className="headerElement kodeMono-fontface">Nome</div>
-          <div className="headerElement kodeMono-fontface">Punteggio</div>
+          <div className="headerElement kodeMono-fontface">Punt.</div>
         </div>
         <div className="contentRow">
           <div className="contentElement cuprum-fontface">1</div>

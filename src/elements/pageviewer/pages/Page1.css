@@ -37,6 +37,9 @@
     justify-content: space-evenly;
     color: #ccc;
     text-align: center;
+    border-radius: 0.3vw;
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+    border-style: solid none none none;
 }
 
 .headerRow > .headerElement:nth-of-type(1),  .contentRow > .contentElement:nth-of-type(1){
