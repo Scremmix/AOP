@@ -1,5 +1,4 @@
 .tabellaMemorialeZenk{
-    font-size: clamp(0.5rem,calc(1vw + .5rem),2rem);
     width: 90%;
     margin: 1vw 5%;
     border-radius: 1vw;
@@ -12,11 +11,14 @@
 .tabellaMemorialeZenk .subPageTitle{
     padding: 0.15rem 0;
     width: 100%;
+    font-size: clamp(0.8rem,calc(1.9vw + .7rem),2.5rem);
     color: #85bdfc;
+    text-shadow: 0 0 8px #cae2fd;
     text-align: center;
 }
 
 .tabellaMemorialeZenk .headerRow{
+    font-size: clamp(0.7rem,calc(1.3vw + .6rem),2.2rem);
     padding: 0.2rem 0;
     width: 100%;
     display: flex;
@@ -27,6 +29,7 @@
 }
 
 .tabellaMemorialeZenk .contentRow{
+    font-size: clamp(0.5rem,calc(1vw + .5rem),2rem);
     padding: 0.2rem 0;
     width: 100%;
     display: flex;
