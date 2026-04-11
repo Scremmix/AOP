@@ -42,14 +42,17 @@
     border-style: solid none none none;
 }
 
-.headerRow > .headerElement:nth-of-type(1),  .contentRow > .contentElement:nth-of-type(1){
+.tabellaMemorialeZenk .headerRow > .headerElement:nth-of-type(1),  
+.tabellaMemorialeZenk .contentRow > .contentElement:nth-of-type(1){
     width: 20%;
 }
 
-.headerRow > .headerElement:nth-of-type(2),  .contentRow > .contentElement:nth-of-type(2){
+.tabellaMemorialeZenk .headerRow > .headerElement:nth-of-type(2),  
+.tabellaMemorialeZenk .contentRow > .contentElement:nth-of-type(2){
     width: 60%;
 }
 
-.headerRow > .headerElement:nth-of-type(3),  .contentRow > .contentElement:nth-of-type(3){
+.tabellaMemorialeZenk .headerRow > .headerElement:nth-of-type(3),  
+.tabellaMemorialeZenk .contentRow > .contentElement:nth-of-type(3){
     width: 20%;
 }
