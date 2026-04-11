@@ -13,7 +13,7 @@ function PageSelector() {
         </label>
         <label class="selectorLabel">
             <input type="radio" id="pageOption3" name="value-radio" defaultValue="Page3" />
-            <span className="text kodeMono-fontface">Storico</span>
+            <span className="text kodeMono-fontface">Storico Camminate</span>
         </label>
     </div>
   );
