@@ -3,10 +3,13 @@ import './Page1.css';
 function Page1() {
   return (
     <div className="tabellaMemorialeZenk">
-        <div className="titleRow">
-          <div className="titleElement kodeMono-fontface">Pos.</div>
-          <div className="titleElement kodeMono-fontface">Nome</div>
-          <div className="titleElement kodeMono-fontface">Punteggio</div>
+        <div className="subPageTitle kodeMono-fontface">
+          Premio Memoriale Zenk
+        </div>
+        <div className="headerRow">
+          <div className="headerElement kodeMono-fontface">Pos.</div>
+          <div className="headerElement kodeMono-fontface">Nome</div>
+          <div className="headerElement kodeMono-fontface">Punteggio</div>
         </div>
         <div className="contentRow">
           <div className="contentElement cuprum-fontface">1</div>
