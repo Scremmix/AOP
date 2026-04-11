@@ -4,7 +4,7 @@ function Page2() {
   return (
     <div className="tabellaPremioMatteo">
         <div className="subPageTitle kodeMono-fontface">
-          Premio Memoriale Zenk
+          Classifica Premio Matteo
         </div>
         <div className="headerRow">
           <div className="headerElement kodeMono-fontface">Pos.</div>

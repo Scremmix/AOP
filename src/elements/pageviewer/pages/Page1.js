@@ -4,7 +4,7 @@ function Page1() {
   return (
     <div className="tabellaMemorialeZenk">
         <div className="subPageTitle kodeMono-fontface">
-          Premio Memoriale Zenk
+          Classifica Memoriale Zenk
         </div>
         <div className="headerRow">
           <div className="headerElement kodeMono-fontface">Pos.</div>
