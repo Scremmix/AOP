@@ -14,13 +14,13 @@ function PageViewer() {
     const renderPage = (pageRadioId) => {
         switch(pageRadioId){
             case "Page1" :
-                return <Page1/>;
+                return <Page1 />;
             case "Page2" :
-                return <Page2/>;
+                return <Page2 />;
             case "Page3" :
-                return <Page3/>;
+                return <Page3 />;
             default :
-             return <p>Huh?</p>;
+             return <Page1 />;
         }
     } 
     return (
