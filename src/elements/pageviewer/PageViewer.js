@@ -27,7 +27,7 @@ function PageViewer() {
         <div>
             <div className="pageSelectorWrapper">
                 <label class="selectorLabel">
-                    <input type="radio" id="pageOption1" name="value-radio" defaultValue="Page1" checked={true} onChange={handlePageChange}/>
+                    <input type="radio" id="pageOption1" name="value-radio" defaultValue="Page1" onChange={handlePageChange}/>
                     <span className="text kodeMono-fontface">Classifica Memoriale Zenk</span>
                 </label>
                 <label class="selectorLabel">
