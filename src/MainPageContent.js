@@ -1,6 +1,6 @@
 import './MainPageContent.css';
 import Headline from './elements/headline/Headline';
-import PageSelector from './elements/headline/PageSelector';
+import PageSelector from './elements/pageselector/PageSelector';
 
 function MainPageContent() {
   return (
