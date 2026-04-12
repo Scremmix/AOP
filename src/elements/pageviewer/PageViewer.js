@@ -28,11 +28,11 @@ function PageViewer() {
             <div className="pageSelectorWrapper">
                 <label class="selectorLabel">
                     <input type="radio" id="pageOption1" name="value-radio" defaultValue="Page1" onChange={handlePageChange}/>
-                    <span className="text kodeMono-fontface">Classifica Memoriale Zenk</span>
+                    <span className="text kodeMono-fontface">Memoriale Zenk</span>
                 </label>
                 <label class="selectorLabel">
                     <input type="radio" id="pageOption2" name="value-radio" defaultValue="Page2" onChange={handlePageChange}/>
-                    <span className="text kodeMono-fontface">Classifica Premio Matteo</span>
+                    <span className="text kodeMono-fontface">Premio Matteo</span>
                 </label>
                 <label class="selectorLabel">
                     <input type="radio" id="pageOption3" name="value-radio" defaultValue="Page3" onChange={handlePageChange}/>
