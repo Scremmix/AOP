@@ -14,25 +14,25 @@ function Page1() {
         <div className="contentRow">
           <div className="contentElement cuprum-fontface">1</div>
           <div className="contentElement cuprum-fontface">Albo</div>
-          <div className="contentElement cuprum-fontface">3 pts.</div>
+          <div className="contentElement cuprum-fontface">6 pts.</div>
         </div>
         <div className="contentRow">
           <div className="contentElement cuprum-fontface">2</div>
+          <div className="contentElement cuprum-fontface">Ciccio</div>
+          <div className="contentElement cuprum-fontface">3 pt.</div>
+        </div>
+        <div className="contentRow">
+          <div className="contentElement cuprum-fontface">3</div>
           <div className="contentElement cuprum-fontface">Matteo</div>
           <div className="contentElement cuprum-fontface">1 pt.</div>
         </div>
         <div className="contentRow">
-          <div className="contentElement cuprum-fontface">3</div>
-          <div className="contentElement cuprum-fontface">Ciccio</div>
-          <div className="contentElement cuprum-fontface">0 pt.</div>
-        </div>
-        <div className="contentRow">
-          <div className="contentElement cuprum-fontface">3</div>
+          <div className="contentElement cuprum-fontface">4</div>
           <div className="contentElement cuprum-fontface">Lucrezia</div>
           <div className="contentElement cuprum-fontface">0 pt.</div>
         </div>
         <div className="contentRow">
-          <div className="contentElement cuprum-fontface">3</div>
+          <div className="contentElement cuprum-fontface">4</div>
           <div className="contentElement cuprum-fontface">Screm</div>
           <div className="contentElement cuprum-fontface">0 pt.</div>
         </div>
