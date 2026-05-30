@@ -3,6 +3,7 @@ import './PageViewer.css';
 import Page1 from './pages/Page1';
 import Page2 from './pages/Page2';
 import Page3 from './pages/Page3';
+import Page4 from './pages/Page4';
 
 function PageViewer() {
     const [selectedPage, setSelectedPage] = useState('pageId');
@@ -19,6 +20,8 @@ function PageViewer() {
                 return <Page2 />;
             case "Page3" :
                 return <Page3 />;
+            case "Page4" :
+                return <Page4 />;
             default :
              return <Page1 />;
         }
@@ -37,6 +40,10 @@ function PageViewer() {
                 <label class="selectorLabel">
                     <input type="radio" id="pageOption3" name="value-radio" defaultValue="Page3" onChange={handlePageChange}/>
                     <span className="text kodeMono-fontface">Storico Camminate</span>
+                </label>
+                <label class="selectorLabel">
+                    <input type="radio" id="pageOption4" name="value-radio" defaultValue="Page4" onChange={handlePageChange}/>
+                    <span className="text kodeMono-fontface">Regolamento</span>
                 </label>
             </div>
 
