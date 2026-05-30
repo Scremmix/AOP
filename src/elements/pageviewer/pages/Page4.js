@@ -7,7 +7,7 @@ function Page4() {
           Regolamento
         </div>
         <div className="content cuprum-fontface">
-          Assegnazione dei punteggi per ciascuna camminata (per entrambe le classifiche:)<br/>
+          Assegnazione dei punteggi per ciascuna camminata (per entrambe le classifiche):<br/>
           <ul>
             <li>1° classificato: 5pt.</li>
             <li>2° classificato: 3pt.</li>
@@ -15,6 +15,10 @@ function Page4() {
             <li>Ultimo classificato: 1pt.</li>
           </ul>
           <br/>Assegnazione bonus (valori attualmente non approvati):<br/>
+          <ul>
+            <li>Bonus Bandierina [BDR]: 3pt.</li>
+            <li>Bonus Campodolcino [CPD]: 20pt.</li>
+          </ul>
         </div>
     </div>
   );
