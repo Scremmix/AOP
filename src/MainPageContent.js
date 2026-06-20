@@ -9,7 +9,7 @@ function MainPageContent() {
             Aglio Olio Peperoncino
         </p>
         <Headline
-          text="Questo sito è ancora in realizzazione... Nel frattempo, venite a camminare, bestie." 
+          text="Callo callo... continuate a camminare... bestie..." 
         />
         <PageViewer />
     </div>
